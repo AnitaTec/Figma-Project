@@ -1,13 +1,15 @@
-import unionIcon from "../../assets/unionIcon";
-import Header from "./components/Header";
-import Main from 
+import Header from "../../components/header";
+import Main from "../../components/main";
+import Footer from "../../components/footer";
+
 function Home() {
-  return;
-  <>
-    <Header />
-    <Main />
-    <Footer />
-  </>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

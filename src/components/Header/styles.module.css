@@ -1,0 +1,47 @@
+.header {
+  background-color: #cde7ff;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+.leftGroup {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 109px;
+}
+
+.leftGroup a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.authButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.authButtons a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.authButtons button {
+  width: 65px;
+  height: 44px;
+  background-color: #fff;
+  border: none;
+}
