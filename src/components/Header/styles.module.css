@@ -1,7 +1,16 @@
+/* === Header Container === */
 .header {
+  position: relative;
   background-color: #cde7ff;
+  height: 980px;
+  background-image: url("../../assets/Rectangle.svg");
+  background-repeat: no-repeat;
+  background-size: 1677px 953px;
+  background-position: right bottom;
+  overflow: hidden;
 }
 
+/* === Top Navigation === */
 .navBar {
   display: flex;
   align-items: center;
@@ -9,6 +18,8 @@
   padding-top: 30px;
   max-width: 1720px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .leftGroup {
@@ -31,6 +42,8 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .authButtons a {
@@ -44,4 +57,43 @@
   height: 44px;
   background-color: #fff;
   border: none;
+}
+
+.searchBar {
+  position: relative;
+  z-index: 1;
+}
+
+.bottomNav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 180px;
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  z-index: 2;
+}
+
+.bottomNav p {
+  font-size: 18px;
+  padding-left: 101px;
+  color: #696969;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 650px;
+}
+
+.icons img {
+  height: 30px;
+  margin-left: 56px;
+}
+
+.icons img:first-child {
+  margin-left: 0;
 }

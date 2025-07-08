@@ -1,0 +1,55 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 131px;
+  max-width: 1720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchBar p {
+  font-size: 64px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  height: 105px;
+  width: 1132px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputWrapper {
+  position: relative;
+  flex: 1;
+  height: 100%;
+}
+
+.inputWrapper input {
+  width: 100%;
+  height: 100%;
+  padding-left: 45px;
+  font-size: 18px;
+  border: none;
+}
+
+.icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.searchButton {
+  height: 100%;
+  width: 213px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: white;
+  border: none;
+  cursor: pointer;
+}

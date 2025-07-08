@@ -1,0 +1,14 @@
+.main {
+  width: 449px;
+  padding: 40px 131px 40px 46px;
+  background-color: rgba(0, 128, 0, 0.246);
+  margin-bottom: 40px;
+}
+
+.circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 17px;
+}

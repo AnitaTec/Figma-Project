@@ -1,5 +1,10 @@
+import VacancyCardList from "../vacancyCardList";
 function Main() {
-  return <div></div>;
+  return (
+    <div>
+      <VacancyCardList />
+    </div>
+  );
 }
 
 export default Main;
